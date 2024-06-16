@@ -1,4 +1,4 @@
-# Install script for directory: /home/makehua/projects/network-muduo/TinyNetwork
+# Install script for directory: /home/makehua/projects/network-muduo/Tiny-Network
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/makehua/projects/network-muduo/TinyNetwork/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/makehua/projects/network-muduo/Tiny-Network/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

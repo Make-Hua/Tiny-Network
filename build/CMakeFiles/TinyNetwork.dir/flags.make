@@ -6,5 +6,5 @@ CXX_FLAGS =  -g -std=c++11 -g -fPIC
 
 CXX_DEFINES = -DTinyNetwork_EXPORTS
 
-CXX_INCLUDES = -I/home/makehua/projects/network-muduo/TinyNetwork/include -I/home/makehua/projects/network-muduo/TinyNetwork/include/base -I/home/makehua/projects/network-muduo/TinyNetwork/include/logger -I/home/makehua/projects/network-muduo/TinyNetwork/include/net -I/home/makehua/projects/network-muduo/TinyNetwork/include/net/poller -I/home/makehua/projects/network-muduo/TinyNetwork/include/pool -I/home/makehua/projects/network-muduo/TinyNetwork/include/pool/ThreadPool 
+CXX_INCLUDES = -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool 
 

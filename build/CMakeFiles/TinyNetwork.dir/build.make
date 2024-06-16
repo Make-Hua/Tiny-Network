@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/makehua/projects/network-muduo/TinyNetwork
+CMAKE_SOURCE_DIR = /home/makehua/projects/network-muduo/Tiny-Network
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/makehua/projects/network-muduo/TinyNetwork/build
+CMAKE_BINARY_DIR = /home/makehua/projects/network-muduo/Tiny-Network/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TinyNetwork.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/TinyNetwork.dir/flags.make
 
 CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o: ../src/base/CurrentThread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/base/CurrentThread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/base/CurrentThread.cc
 
 CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/base/CurrentThread.cc > CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/base/CurrentThread.cc > CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/base/CurrentThread.cc -o CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/base/CurrentThread.cc -o CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o.provides.build: CMakeFile
 
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o: ../src/base/Timestamp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/base/Timestamp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/base/Timestamp.cc
 
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/base/Timestamp.cc > CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/base/Timestamp.cc > CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/base/Timestamp.cc -o CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/base/Timestamp.cc -o CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o.provides.build: CMakeFiles/Ti
 
 CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o: ../src/net/Acceptor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/Acceptor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Acceptor.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/Acceptor.cc > CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/Acceptor.cc > CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/Acceptor.cc -o CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/Acceptor.cc -o CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o.provides.build: CMakeFiles/Tiny
 
 CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o: ../src/net/Buffer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/Buffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Buffer.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/Buffer.cc > CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/Buffer.cc > CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/Buffer.cc -o CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/Buffer.cc -o CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o.provides.build: CMakeFiles/TinyNe
 
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../src/net/Channel.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/Channel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Channel.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/Channel.cc > CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/Channel.cc > CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/Channel.cc -o CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/Channel.cc -o CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o.provides.build: CMakeFiles/TinyN
 
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../src/net/EventLoop.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/EventLoop.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/EventLoop.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/EventLoop.cc > CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/EventLoop.cc > CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/EventLoop.cc -o CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/EventLoop.cc -o CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o.provides.build: CMakeFiles/Tin
 
 CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o: ../src/net/InetAddress.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/InetAddress.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/InetAddress.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/InetAddress.cc > CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/InetAddress.cc > CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/InetAddress.cc -o CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/InetAddress.cc -o CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o.provides.build: CMakeFiles/T
 
 CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o: ../src/net/Socket.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/Socket.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/Socket.cc > CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc > CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/Socket.cc -o CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc -o CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o.provides.build: CMakeFiles/TinyNe
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../src/net/TcpConnection.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/TcpConnection.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/TcpConnection.cc > CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc > CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/TcpConnection.cc -o CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc -o CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../src/net/TcpServer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/TcpServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/TcpServer.cc > CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc > CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/TcpServer.cc -o CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc -o CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o.provides.build: CMakeFiles/Tin
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o: ../src/net/poller/DefaultPoller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/DefaultPoller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/DefaultPoller.cc > CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc > CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/DefaultPoller.cc -o CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc -o CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o.provides.build: CMa
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o: ../src/net/poller/EPollPoller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/EPollPoller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/EPollPoller.cc > CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc > CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/EPollPoller.cc -o CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc -o CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o.provides.build: CMake
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o: ../src/net/poller/Poller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/Poller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/Poller.cc > CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc > CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/net/poller/Poller.cc -o CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc -o CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o: ../src/logger/asLogger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/logger/asLogger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/logger/asLogger.cc
 
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/logger/asLogger.cc > CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/logger/asLogger.cc > CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/logger/asLogger.cc -o CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/logger/asLogger.cc -o CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o.provides.build: CMakeFiles/T
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../src/pool/thread/EventLoopThread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/EventLoopThread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/EventLoopThread.cc > CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc > CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/EventLoopThread.cc -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o.provides.build: 
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../src/pool/thread/EventLoopThreadPool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/EventLoopThreadPool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThreadPool.cc
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/EventLoopThreadPool.cc > CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThreadPool.cc > CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/EventLoopThreadPool.cc -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThreadPool.cc -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o.provides.bui
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
 CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o: ../src/pool/thread/Thread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o -c /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/Thread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/Thread.cc
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/Thread.cc > CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/Thread.cc > CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.i
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/TinyNetwork/src/pool/thread/Thread.cc -o CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/Thread.cc -o CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.s
 
 CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o.requires:
 
@@ -507,7 +507,7 @@ TinyNetwork_EXTERNAL_OBJECTS =
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/build.make
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ../lib/libTinyNetwork.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ../lib/libTinyNetwork.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TinyNetwork.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -540,6 +540,6 @@ CMakeFiles/TinyNetwork.dir/clean:
 .PHONY : CMakeFiles/TinyNetwork.dir/clean
 
 CMakeFiles/TinyNetwork.dir/depend:
-	cd /home/makehua/projects/network-muduo/TinyNetwork/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makehua/projects/network-muduo/TinyNetwork /home/makehua/projects/network-muduo/TinyNetwork /home/makehua/projects/network-muduo/TinyNetwork/build /home/makehua/projects/network-muduo/TinyNetwork/build /home/makehua/projects/network-muduo/TinyNetwork/build/CMakeFiles/TinyNetwork.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makehua/projects/network-muduo/Tiny-Network/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makehua/projects/network-muduo/Tiny-Network /home/makehua/projects/network-muduo/Tiny-Network /home/makehua/projects/network-muduo/Tiny-Network/build /home/makehua/projects/network-muduo/Tiny-Network/build /home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TinyNetwork.dir/depend
 
