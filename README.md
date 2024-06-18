@@ -31,8 +31,11 @@ TinyNetwork/
 
 - 网络编程库底层采用 Epoll + LT 模式的 I/O 复用模型，并且结合非阻塞 I/O 实现从 Reactor 模型，实现了高并发和高吞吐量
 - 网络库采用了 one loop per therad 线程模型，并且向上封装线程池避免了线程的创建和销毁的性能开销，保证服务器的性能
-- 采用 eventfd 作为事件通知描述符，方便高效派发事件到其他线程执行异步任务
 - 使用 C++11 的新特性编写，对比 muduo 网络库，该网络库去除了对于 Boost 库的依赖，实现了更加轻量化的设计
+- 采用 eventfd 作为事件通知描述符，通过 wakeup 机制巧妙的高效派发事件到其他线程执行异步任务
+- 设计 Buffer 类，通过调用 readv API 减少系统调用次数，利用 buffer + extrabuf 设计提高访问速度，减少内存碎片
+
+
 
 ## 开发环境
 
@@ -44,8 +47,13 @@ TinyNetwork/
 
 ## 并发模型
 
-`Reactor` 模型
+`Reactor` 模型：
 
+![Buffer](https://github.com/Make-Hua/Tiny-Network/blob/master/image/Reactor.png)
+
+`muduo`-`Reactor` 模型：
+
+![Buffer](https://github.com/Make-Hua/Tiny-Network/blob/master/image/muduo-Reactor%E6%A8%A1%E5%9E%8B.png)
 
 ## 构建项目
 

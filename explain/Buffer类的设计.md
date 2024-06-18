@@ -225,7 +225,7 @@ private:
 
 `ensureWriteableBytes` 函数通过调用 `makeSpace` 函数进行扩容。
 
-![image-20240617233535352](C:\Users\马克.华\AppData\Roaming\Typora\typora-user-images\image-20240617233535352.png)
+![Buffer](https://github.com/Make-Hua/Tiny-Network/blob/master/image/Buffer%E7%BB%93%E6%9E%84%E7%A4%BA%E4%BE%8B.png)
 
 
 
