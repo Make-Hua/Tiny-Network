@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/base/CurrentThread.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/base/CurrentThread.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/base/Timestamp.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/base/Timestamp.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Acceptor.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Acceptor.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Buffer.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Buffer.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Channel.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Channel.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/EventLoop.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/EventLoop.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/InetAddress.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/InetAddress.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/logger/asLogger.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/logger/asLogger.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThreadPool.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/makehua/projects/network-muduo/Tiny-Network/build",
+  "command": "/usr/bin/c++  -DTinyNetwork_EXPORTS -I/home/makehua/projects/network-muduo/Tiny-Network/include -I/home/makehua/projects/network-muduo/Tiny-Network/include/base -I/home/makehua/projects/network-muduo/Tiny-Network/include/logger -I/home/makehua/projects/network-muduo/Tiny-Network/include/net -I/home/makehua/projects/network-muduo/Tiny-Network/include/net/poller -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool -I/home/makehua/projects/network-muduo/Tiny-Network/include/pool/ThreadPool   -g -std=c++11 -g -fPIC   -o CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/Thread.cc",
+  "file": "/home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/Thread.cc"
+}
+]
