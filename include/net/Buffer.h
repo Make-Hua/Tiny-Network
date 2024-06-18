@@ -21,6 +21,7 @@
 class Buffer
 {
 public:
+    // 说明缓冲区中共可以存 1032 字节
     static const size_t kCheapPrepend = 8;                          // 预置大小
     static const size_t kInitialSize = 1024;                        // 初始大小
 
@@ -48,15 +49,10 @@ public:
         return readerIndex_;
     }
 
-    // 返回缓冲区中可读数据的起始地址
-    const char* peek() const 
-    {
-        return begin() + readerIndex_;
-    }
-
+    // 更新目前可读区域的大小
     void retrieve(size_t len)
     {
-        if (len <= readableBytes())
+        if (len < readableBytes())
         {
             // 应用只读取了可读缓冲区的一部分，也就是 len, 还剩下 readerIndex_ += len
             readerIndex_ += len;
@@ -67,10 +63,11 @@ public:
         }
     }
 
-    // 重置大小？
+    // 重置读和写
     void retrieveAll()
     {
-        readerIndex_ = writerIndex_ = kCheapPrepend;
+        readerIndex_ = kCheapPrepend;
+        writerIndex_ = kCheapPrepend;
     }
 
     // 把 onMessage 函数上报的 Buffer 数据，转成 string 类型的数据返回
@@ -79,6 +76,7 @@ public:
         return retrieveAsString(readableBytes());
     }   
 
+    // 从 buffer 中取出长度为 len 的字节的数据
     std::string retrieveAsString(size_t len)
     {
         std::string result(peek(), len);
@@ -86,7 +84,7 @@ public:
         return result;
     }
 
-    // buffer_.size() - writerIndex_ 
+    // buffer_.size() - writerIndex_ 可写区域已经不够写入，则进行扩容
     void ensureWriteableBytes(size_t len)
     {
         if (writableBytes() < len)
@@ -102,6 +100,12 @@ public:
         ensureWriteableBytes(len);
         std::copy(data, data + len, beginWrite());
         writerIndex_ += len;
+    }
+    
+    // 返回缓冲区中可读数据的起始地址
+    const char* peek() const 
+    {
+        return begin() + readerIndex_;
     }
 
     char* beginWrite()
@@ -161,12 +165,10 @@ private:
             readerIndex_ = kCheapPrepend;
             writerIndex_ = readerIndex_ + readalbe;
         }
-
-        
     }
 
-    std::vector<char> buffer_;
-    size_t readerIndex_;
-    size_t writerIndex_;
+    std::vector<char> buffer_;              // buffer 缓冲区
+    size_t readerIndex_;                    // 可读区域头下标
+    size_t writerIndex_;                    // 可写区域头下标
 
 };

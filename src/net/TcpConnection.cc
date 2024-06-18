@@ -56,7 +56,8 @@ TcpConnection::~TcpConnection()
 
 void TcpConnection::send(const std::string &buf)
 {
-    if (state_ == kDisconnected)
+    // 当属于正在连接的状态
+    if (state_ == kConnected)
     {
         if (loop_->isInLoopThread())
         {
@@ -136,7 +137,6 @@ void TcpConnection::shutdown()
         loop_->runInLoop(
             std::bind(&TcpConnection::shutdownInLoop, this)
         );
-
     }
 }
 
@@ -219,10 +219,10 @@ void TcpConnection::handleClose()
 
     TcpConnectionPtr connPtr(shared_from_this());
 
-    // 执行关闭连接的回调
+    // 执行连接关闭的回调
     connectionCallback_(connPtr);
 
-    // 关闭连接回调
+    // 执行关闭连接的回调 执行的是 TcpServer::removeConnection 回调方法
     closeCallback_(connPtr);
 }
 
@@ -249,7 +249,7 @@ void TcpConnection::connectEstablished()
     setState(kConnected);
     channel_->tie(shared_from_this());
 
-    // 向 Poller 注册 channel 的 epollin 事件
+    // 设置该 channel 关注读事件
     channel_->enableReading();
 
     // 新建连接，执行回调

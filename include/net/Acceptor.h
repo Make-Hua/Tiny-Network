@@ -27,12 +27,11 @@ public:
 
 private:
     void handleRead();
-
-    // Acceptor 用的就是用户定义的 baseloop(mainloop)
-    EventLoop *loop_;
-    Socket acceptSocket_;
-    Channel acceptChannel_;
-    NewConnectionCallback newConnectionCallback_;
+    
+    EventLoop *loop_;                                       // Acceptor 用的就是用户自己定义的主事件循环 baseloop(mainloop)
+    Socket acceptSocket_;                                   // 监听用的 fd 
+    Channel acceptChannel_;                                 // 该 fd 对应的 Channel
+    NewConnectionCallback newConnectionCallback_;           // 建立连接的回调函数
     bool listenning_;
 
 };

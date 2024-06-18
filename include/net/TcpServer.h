@@ -1,8 +1,5 @@
 #pragma once
 
-/**
- * 
-*/
 #include <functional>
 #include <string>
 #include <memory>
@@ -69,5 +66,4 @@ private:
 
     int nextConnId_;
     ConnectionMap connections_;                                         // 保存所有连接
-
 };

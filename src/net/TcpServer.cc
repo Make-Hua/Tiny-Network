@@ -31,7 +31,7 @@ TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::
 {
     // 当有新用户连接时，会执行 TcpServer::newConnection 回调
     acceptor_->setNewConnectionCallback(std::bind(&TcpServer::newConnection, this, std::placeholders::_1, std::placeholders::_2));
-
+    
 }
 
 TcpServer::~TcpServer()
@@ -110,7 +110,9 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
     );
 
     // 直接调用 connectEstablished
-    ioLoop->runInLoop(std::bind(&TcpConnection::connectEstablished, conn));
+    ioLoop->runInLoop(
+        std::bind(&TcpConnection::connectEstablished, conn)
+    );
 }
 
 

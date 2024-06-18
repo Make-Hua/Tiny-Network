@@ -8,7 +8,7 @@
 #include "InetAddress.h"
 
 
-
+// 因为是上层 TcpServer 创建 Acceptor 对象时调用的，所以需要写成静态函数
 static int createNonblocking()
 {
     int sockfd = ::socket(AF_INET, SOCK_STREAM | SOCK_NONBLOCK | SOCK_CLOEXEC, 0);
@@ -35,9 +35,10 @@ Acceptor::Acceptor(EventLoop *loop, const InetAddress &listenAddr, bool reusepor
 }
 
 Acceptor::~Acceptor()
-{
-    acceptChannel_.disableAll();
-    acceptChannel_.remove();
+{   
+    // 关闭对应的文件描述符 （下述操作时关闭文件描述符的前置操作，具体关闭在 Socket 中）
+    acceptChannel_.disableAll();            // 禁用读写事件
+    acceptChannel_.remove();                // 将该文件描述符从 epoll 删除
 } 
 
 void Acceptor::listen()
@@ -49,7 +50,7 @@ void Acceptor::listen()
     acceptChannel_.enableReading();    
 }
 
-// listenfd 有事件发生了，也就是有新用户连接了
+// socketfd 有事件发生了，也就是有新用户连接了
 void Acceptor::handleRead()
 {
     InetAddress peerAddr;

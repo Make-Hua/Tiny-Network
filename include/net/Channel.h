@@ -42,16 +42,16 @@ public:
     int set_revents(int revt) { revents_ = revt; }
 
     // 设置 fd 相应的事件状态 (记录 fd 感兴趣的事件)
-    void enableReading() { events_ |= kReadEvent; update(); }
-    void disableReading() { events_ &= ~kReadEvent; update(); }
-    void enableWriting() { events_ |= kWriteEvent; update(); }
-    void disableWriting() { events_ &= ~kWriteEvent; update(); }
-    void disableAll() { events_ = kNoneEvent; update(); }
+    void enableReading() { events_ |= kReadEvent; update(); }           // 启用读事件
+    void disableReading() { events_ &= ~kReadEvent; update(); }         // 禁用读事件
+    void enableWriting() { events_ |= kWriteEvent; update(); }          // 启用写事件
+    void disableWriting() { events_ &= ~kWriteEvent; update(); }        // 禁用写事件
+    void disableAll() { events_ = kNoneEvent; update(); }               // 禁用所有事件
 
     // 返回 fd 当前事件状态
-    bool isNoneEvent() const { return events_ == kNoneEvent; }
-    bool isWriting() const { return events_ & kWriteEvent; }
-    bool isReading() const { return events_ & kReadEvent; }
+    bool isNoneEvent() const { return events_ == kNoneEvent; }          // 检查当前事件是否没有任何事件（即无事件发生）
+    bool isWriting() const { return events_ & kWriteEvent; }            // 检查当前事件是否包含写事件。
+    bool isReading() const { return events_ & kReadEvent; }             // 检查当前事件是否包含读事件。
 
     // 
     int index() { return index_; }
