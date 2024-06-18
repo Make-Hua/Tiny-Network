@@ -44,6 +44,7 @@ TinyNetwork/
 
 ## 并发模型
 
+`Reactor` 模型
 
 
 ## 构建项目
@@ -91,6 +92,14 @@ sudo ./copy.sh
 
 模块三：
 
-[`Acceptor` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/Acceptor_%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
+[`Acceptor` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/Acceptor%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
 
 [`InetAddress` 和 `Sockt` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/InetAddress%E7%B1%BB%E5%92%8CSockt%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
+
+模块四：
+
+[`Buffer` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/Buffer%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
+
+[`TcpConnection` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/TcpConnection%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
+
+[`TcpServer` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/TcpServer%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
