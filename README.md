@@ -74,7 +74,7 @@ sudo ./copy.sh
 
 ## 项目优化
 
-#### [异步日志](https://github.com/Make-Hua/TinyNetwork/blob/master/explain/%E5%BC%82%E6%AD%A5%E6%97%A5%E5%BF%97%E8%AE%BE%E8%AE%A1%E8%AE%B2%E8%A7%A3.md)
+#### [异步日志](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/%E5%BC%82%E6%AD%A5%E6%97%A5%E5%BF%97%E8%AE%BE%E8%AE%A1%E8%AE%B2%E8%A7%A3.md)
 
 定时器
 
@@ -88,7 +88,7 @@ sudo ./copy.sh
 
 模块一：
 
-[`Channel` 类的设计](https://github.com/Make-Hua/TinyNetwork/blob/master/explain/Channel%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
+[`Channel` 类的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/Channel%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
 
 [`Poller` 和 `EPollPoller` 类的设计](https://github.com/Make-Hua/TinyNetwork/blob/master/explain/Poller_%E7%B1%BB%E5%92%8C_EPollPoller_%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
 
@@ -96,7 +96,7 @@ sudo ./copy.sh
 
 模块二：
 
-[线程池的设计](https://github.com/Make-Hua/TinyNetwork/blob/master/explain/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E8%AE%BE%E8%AE%A1%E8%AE%B2%E8%A7%A3.md)
+[线程池的设计](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E8%AE%BE%E8%AE%A1%E8%AE%B2%E8%A7%A3.md)
 
 模块三：
 
