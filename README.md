@@ -13,14 +13,16 @@ TinyNetwork/
 │   ├── base/
 │   ├── logger/
 │   ├── net/
-│   │   └── poller/
+│   │   │── poller/
+│   │   └── timer/
 │   └── pool/
 │       └── ThreadPool/
 ├── src/
 │   ├── base/
 │   ├── logger/
 │   ├── net/
-│   │   └── poller/
+│   │   │── poller/
+│   │   └── timer/
 │   └── pool/
 │       └── thread/
 ├── lib/
@@ -34,6 +36,7 @@ TinyNetwork/
 - 使用 C++11 的新特性编写，对比 muduo 网络库，该网络库去除了对于 Boost 库的依赖，实现了更加轻量化的设计
 - 采用 eventfd 作为事件通知描述符，通过 wakeup 机制巧妙的高效派发事件到其他线程执行异步任务
 - 设计 Buffer 类，通过调用 readv API 减少系统调用次数，利用 buffer + extrabuf 设计提高访问速度，减少内存碎片
+- 基于红黑树实现定时器的管理结构，内部使用 Linux 的 timerfd 通知到期任务，从而进行高效管理定时任务
 
 
 
@@ -76,7 +79,7 @@ sudo ./copy.sh
 
 #### [异步日志](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/%E5%BC%82%E6%AD%A5%E6%97%A5%E5%BF%97%E8%AE%BE%E8%AE%A1%E8%AE%B2%E8%A7%A3.md)
 
-定时器
+#### [定时器](https://github.com/Make-Hua/Tiny-Network/blob/master/explain/%E5%AE%9A%E6%97%B6%E5%99%A8%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
 
 `MySQL` 连接池
 

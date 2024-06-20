@@ -11,6 +11,7 @@ public:
     explicit Timestamp(int64_t microSecondsSinceEpoch);
 
     static Timestamp now();
+    static Timestamp now1();
 
     // 按照规定格式返回  "%4d/%02d/%02d %02d:%02d:%02d"
     std::string toString() const;

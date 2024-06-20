@@ -12,8 +12,11 @@ Timestamp::Timestamp(int64_t microSecondsSinceEpoch)
 
 Timestamp Timestamp::now()
 {
-    // return Timestamp(time(NULL));
+    return Timestamp(time(NULL));
+}
 
+Timestamp Timestamp::now1()
+{
     struct timeval tv;
     // 获取微妙和秒
     // 在x86-64平台gettimeofday()已不是系统调用,不会陷入内核, 多次调用不会有性能损失.

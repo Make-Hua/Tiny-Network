@@ -93,7 +93,7 @@ void TimerQueue::resetTimerfd(int timerfd_, Timestamp expiration)
     memset(&oldValue, '\0', sizeof(oldValue));
 
     // 超时时间 - 现在时间
-    int64_t microSecondDif = expiration.microSecondsSinceEpoch() - Timestamp::now().microSecondsSinceEpoch();
+    int64_t microSecondDif = expiration.microSecondsSinceEpoch() - Timestamp::now1().microSecondsSinceEpoch();
     if (microSecondDif < 100)
     {
         microSecondDif = 100;
@@ -143,7 +143,7 @@ std::vector<TimerQueue::Entry> TimerQueue::getExpired(Timestamp now)
 
 void TimerQueue::handleRead()
 {
-    Timestamp now = Timestamp::now();
+    Timestamp now = Timestamp::now1();
     ReadTimerFd(timerfd_);
 
     std::vector<Entry> expired = getExpired(now);
@@ -171,7 +171,7 @@ void TimerQueue::reset(const std::vector<Entry>& expired, Timestamp now)
         if (it.second->repeat())
         {
             auto timer = it.second;
-            timer->restart(Timestamp::now());
+            timer->restart(Timestamp::now1());
             insert(timer);
         }
         else
