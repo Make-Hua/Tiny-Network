@@ -501,6 +501,60 @@ src/net/poller/Poller.cc.s:
 	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.s
 .PHONY : src/net/poller/Poller.cc.s
 
+src/net/timer/Timer.o: src/net/timer/Timer.cc.o
+
+.PHONY : src/net/timer/Timer.o
+
+# target to build an object file
+src/net/timer/Timer.cc.o:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o
+.PHONY : src/net/timer/Timer.cc.o
+
+src/net/timer/Timer.i: src/net/timer/Timer.cc.i
+
+.PHONY : src/net/timer/Timer.i
+
+# target to preprocess a source file
+src/net/timer/Timer.cc.i:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.i
+.PHONY : src/net/timer/Timer.cc.i
+
+src/net/timer/Timer.s: src/net/timer/Timer.cc.s
+
+.PHONY : src/net/timer/Timer.s
+
+# target to generate assembly for a file
+src/net/timer/Timer.cc.s:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.s
+.PHONY : src/net/timer/Timer.cc.s
+
+src/net/timer/TimerQueue.o: src/net/timer/TimerQueue.cc.o
+
+.PHONY : src/net/timer/TimerQueue.o
+
+# target to build an object file
+src/net/timer/TimerQueue.cc.o:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o
+.PHONY : src/net/timer/TimerQueue.cc.o
+
+src/net/timer/TimerQueue.i: src/net/timer/TimerQueue.cc.i
+
+.PHONY : src/net/timer/TimerQueue.i
+
+# target to preprocess a source file
+src/net/timer/TimerQueue.cc.i:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.i
+.PHONY : src/net/timer/TimerQueue.cc.i
+
+src/net/timer/TimerQueue.s: src/net/timer/TimerQueue.cc.s
+
+.PHONY : src/net/timer/TimerQueue.s
+
+# target to generate assembly for a file
+src/net/timer/TimerQueue.cc.s:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.s
+.PHONY : src/net/timer/TimerQueue.cc.s
+
 src/pool/thread/EventLoopThread.o: src/pool/thread/EventLoopThread.cc.o
 
 .PHONY : src/pool/thread/EventLoopThread.o
@@ -633,6 +687,12 @@ help:
 	@echo "... src/net/poller/Poller.o"
 	@echo "... src/net/poller/Poller.i"
 	@echo "... src/net/poller/Poller.s"
+	@echo "... src/net/timer/Timer.o"
+	@echo "... src/net/timer/Timer.i"
+	@echo "... src/net/timer/Timer.s"
+	@echo "... src/net/timer/TimerQueue.o"
+	@echo "... src/net/timer/TimerQueue.i"
+	@echo "... src/net/timer/TimerQueue.s"
 	@echo "... src/pool/thread/EventLoopThread.o"
 	@echo "... src/pool/thread/EventLoopThread.i"
 	@echo "... src/pool/thread/EventLoopThread.s"

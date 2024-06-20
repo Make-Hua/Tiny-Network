@@ -8,6 +8,7 @@
 
 #include "CurrentThread.h"
 #include "noncopyable.h"
+#include "TimerQueue.h"
 #include "Timestamp.h"
 
 class Channel;
@@ -48,6 +49,18 @@ public:
     bool isInLoopThread() const { return threadId_ == CurrentThread::tid(); }
 
 
+    // ---------------- 定时器相关 --------------------
+    // Functor 传参时尽量使用 move 这类不需要执行具体拷贝的语法，可以大大提高效率
+    // 在指定的 timestamp 时间点执行回调函数 cb
+    void runAt(Timestamp timestamp, Functor&& cb);
+
+    // 在当前时间 waitTime 秒之后执行回调函数 cb
+    void runAfter(double waitTime, Functor&& cb);
+
+    // 以 interval 秒为周期，定期执行回调函数 cb
+    void runEvery(double interval, Functor&& cb);
+    // ---------------- 定时器相关 --------------------
+
 private:
 
     void handleRead();
@@ -63,6 +76,8 @@ private:
 
     Timestamp pollReturnTime_;                              // poller 返回发生事件的 channels 的时间点
     std::unique_ptr<Poller> poller_;                        // EventLoop 所管理的 Poller，而 poller 帮 EventLoop 监听所有发生事件
+
+    std::unique_ptr<TimerQueue> timerQueue_;                // 定时器管理对象
 
     int wakeupFd_;                                          // 作用：当 mainLoop 获取一个新用户的 channel, 通过轮询算法选择一个 subloop 来处理 channel
     std::unique_ptr<Channel> wakeupChannel_;                // wakeupFd_ 文件描述符对应的 Channel

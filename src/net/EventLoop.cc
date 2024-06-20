@@ -33,6 +33,7 @@ EventLoop::EventLoop()
     , callingPendingFunctors_(false)
     , threadId_(CurrentThread::tid())
     , poller_(Poller::newDefaultPoller(this))
+    , timerQueue_(new TimerQueue(this))
     , wakeupFd_(createEventfd())
     , wakeupChannel_(new Channel(this, wakeupFd_))
 {
@@ -57,8 +58,11 @@ EventLoop::EventLoop()
 
 EventLoop::~EventLoop()
 {
+    // channel移除所有感兴趣事件 将channel从EventLoop中删除
     wakeupChannel_->disableAll();
     wakeupChannel_->remove();
+
+    // 关闭 wakeupFd_   指向EventLoop指针为空
     ::close(wakeupFd_);
     t_loopInThisThread = nullptr;
 }
@@ -208,4 +212,27 @@ void EventLoop::handleRead()
     {
         LOG_ERROR("EventLoop::handleRead() reads %zd bytes instead of 8", n);
     }
+}
+
+
+
+/**
+ * 定时任务相关函数
+ */
+
+// 在指定的 timestamp 时间点执行回调函数 cb
+void EventLoop::runAt(Timestamp timestamp, Functor&& cb) {
+    timerQueue_->addTimer(std::move(cb), timestamp, 0.0);
+}
+
+// 在当前时间 waitTime 秒之后执行回调函数 cb
+void EventLoop::runAfter(double waitTime, Functor&& cb) {
+    Timestamp time(addTime(Timestamp::now(), waitTime)); 
+    runAt(time, std::move(cb));
+}
+
+// 以 interval 秒为周期，定期执行回调函数 cb
+void EventLoop::runEvery(double interval, Functor&& cb) {
+    Timestamp timestamp(addTime(Timestamp::now(), interval)); 
+    timerQueue_->addTimer(std::move(cb), timestamp, interval);
 }

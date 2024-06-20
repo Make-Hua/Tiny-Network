@@ -33,6 +33,7 @@ CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../include/logger/asLogger.h
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../include/logger/lockqueue.h
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../include/net/Channel.h
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../include/net/EventLoop.h
+CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/net/Channel.cc.o: ../src/net/Channel.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../include/base/CurrentThread.h
@@ -43,6 +44,7 @@ CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../include/logger/lockqueue.h
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../include/net/Channel.h
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../include/net/EventLoop.h
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../include/net/poller/Poller.h
+CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/net/EventLoop.cc.o: ../src/net/EventLoop.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/InetAddress.cc.o: ../include/net/InetAddress.h
@@ -67,6 +69,7 @@ CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../include/net/EventLoop.
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../include/net/InetAddress.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../include/net/Socket.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../include/net/TcpConnection.h
+CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o: ../src/net/TcpConnection.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/base/CurrentThread.h
@@ -83,6 +86,7 @@ CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/InetAddress.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/Socket.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/TcpConnection.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/TcpServer.h
+CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/pool/ThreadPool/EventLoopThreadPool.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../src/net/TcpServer.cc
 
@@ -107,10 +111,28 @@ CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o: ../include/net/Channel.h
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o: ../include/net/poller/Poller.h
 CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o: ../src/net/poller/Poller.cc
 
+CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o: ../include/base/Timestamp.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o: ../include/net/timer/Timer.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o: ../src/net/timer/Timer.cc
+
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/base/CurrentThread.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/base/Timestamp.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/logger/asLogger.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/logger/lockqueue.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/net/Channel.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/net/EventLoop.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/net/timer/Timer.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../include/net/timer/TimerQueue.h
+CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o: ../src/net/timer/TimerQueue.cc
+
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/base/CurrentThread.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/base/Timestamp.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/net/Channel.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/net/EventLoop.h
+CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/pool/ThreadPool/EventLoopThread.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../include/pool/ThreadPool/Thread.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../src/pool/thread/EventLoopThread.cc
@@ -118,7 +140,9 @@ CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o: ../src/pool/thr
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/base/CurrentThread.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/base/Timestamp.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/net/Channel.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/net/EventLoop.h
+CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/pool/ThreadPool/EventLoopThread.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/pool/ThreadPool/EventLoopThreadPool.h
 CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o: ../include/pool/ThreadPool/Thread.h

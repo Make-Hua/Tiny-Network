@@ -17,6 +17,8 @@ iostream
 -
 string
 -
+sys/time.h
+-
 
 ../include/base/noncopyable.h
 
@@ -91,6 +93,8 @@ CurrentThread.h
 ../include/net/CurrentThread.h
 noncopyable.h
 ../include/net/noncopyable.h
+TimerQueue.h
+../include/net/TimerQueue.h
 Timestamp.h
 ../include/net/Timestamp.h
 
@@ -169,6 +173,24 @@ noncopyable.h
 ../include/net/poller/noncopyable.h
 Timestamp.h
 ../include/net/poller/Timestamp.h
+
+../include/net/timer/Timer.h
+functional
+-
+noncopyable.h
+../include/net/timer/noncopyable.h
+Timestamp.h
+../include/net/timer/Timestamp.h
+
+../include/net/timer/TimerQueue.h
+vector
+-
+set
+-
+Timestamp.h
+../include/net/timer/Timestamp.h
+Channel.h
+../include/net/timer/Channel.h
 
 ../include/pool/ThreadPool/EventLoopThread.h
 functional
@@ -381,6 +403,28 @@ Poller.h
 /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.h
 Channel.h
 /home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Channel.h
+
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/Timer.cc
+Timer.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/Timer.h
+
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/TimerQueue.cc
+sys/timerfd.h
+-
+unistd.h
+-
+string.h
+-
+EventLoop.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/EventLoop.h
+Channel.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/Channel.h
+asLogger.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/asLogger.h
+Timer.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/Timer.h
+TimerQueue.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/TimerQueue.h
 
 /home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc
 EventLoopThread.h

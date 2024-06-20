@@ -27,6 +27,11 @@ do
     cp $header /usr/include/TinyNetwork
 done
 
+for header in `ls ./include/net/timer/*.h`
+do
+    cp $header /usr/include/TinyNetwork
+done
+
 for header in `ls ./include/pool/ThreadPool/*.h`
 do
     cp $header /usr/include/TinyNetwork

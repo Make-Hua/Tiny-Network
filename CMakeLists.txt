@@ -3,12 +3,11 @@ cmake_minimum_required(VERSION 3.0)
 project(TinyNetwork)
 
 # 添加头文件搜索路径
-include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/include/base)
 include_directories(${PROJECT_SOURCE_DIR}/include/logger)
 include_directories(${PROJECT_SOURCE_DIR}/include/net)
 include_directories(${PROJECT_SOURCE_DIR}/include/net/poller)
-include_directories(${PROJECT_SOURCE_DIR}/include/pool)
+include_directories(${PROJECT_SOURCE_DIR}/include/net/timer)
 include_directories(${PROJECT_SOURCE_DIR}/include/pool/ThreadPool)
 
 # include_directories(${PROJECT_SOURCE_DIR}/pool/MySqlPool)
@@ -19,6 +18,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include/pool/ThreadPool)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/base SRC_BASE)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/net SRC_NET)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/net/poller SRC_POLLER)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/net/timer SRC_TIMER)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/logger SRC_LOG)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/pool/thread SRC_THREAD)
 
@@ -38,6 +38,7 @@ add_library(TinyNetwork SHARED
             ${SRC_BASE}
             ${SRC_NET}
             ${SRC_POLLER}
+            ${SRC_TIMER}
             ${SRC_LOG}
             ${SRC_THREAD}
         )

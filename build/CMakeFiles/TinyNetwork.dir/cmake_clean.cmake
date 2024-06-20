@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o"
+  "CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o"
+  "CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o"

@@ -18,6 +18,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/Timer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/timer/Timer.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/timer/TimerQueue.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/timer/TimerQueue.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThread.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/EventLoopThreadPool.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/pool/thread/Thread.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o"
@@ -26,12 +28,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
   "../include/base"
   "../include/logger"
   "../include/net"
   "../include/net/poller"
-  "../include/pool"
+  "../include/net/timer"
   "../include/pool/ThreadPool"
   )
 
