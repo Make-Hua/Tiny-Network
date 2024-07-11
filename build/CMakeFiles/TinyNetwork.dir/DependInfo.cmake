@@ -6,6 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/makehua/projects/network-muduo/Tiny-Network/src/base/CurrentThread.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/base/Timestamp.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpContext.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpRequest.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpResponse.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpServer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/logger/asLogger.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Acceptor.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/Acceptor.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Buffer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/Buffer.cc.o"
@@ -15,10 +19,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o"
-  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpContext.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o"
-  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpRequest.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o"
-  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpResponse.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o"
-  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpServer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o"
@@ -38,7 +38,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/net/poller"
   "../include/net/timer"
   "../include/pool/ThreadPool"
-  "../include/net/http"
+  "../include/http"
   )
 
 # Targets to which this target links.

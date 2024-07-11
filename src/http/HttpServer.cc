@@ -55,6 +55,7 @@ void HttpServer::onMessage(const TcpConnectionPtr& conn,
                            Timestamp receiveTime)
 {
     // LOG_INFO << "HttpServer::onMessage";
+    LOG_INFO("HttpServer::onMessage");
     std::unique_ptr<HttpContext> context(new HttpContext);
 
 #if 0
@@ -81,6 +82,7 @@ void HttpServer::onMessage(const TcpConnectionPtr& conn,
     }
 }
 
+// 处理已经解析的HTTP请求
 void HttpServer::onRequest(const TcpConnectionPtr& conn, const HttpRequest& req)
 {
     const std::string& connection = req.getHeader("Connection");

@@ -7,6 +7,44 @@ CMakeFiles/TinyNetwork.dir/src/base/CurrentThread.cc.o: ../src/base/CurrentThrea
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o: ../include/base/Timestamp.h
 CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.o: ../src/base/Timestamp.cc
 
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../include/base/Timestamp.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../include/http/HttpContext.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../include/http/HttpRequest.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../include/net/Buffer.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../src/http/HttpContext.cc
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o: ../include/base/Timestamp.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o: ../include/http/HttpRequest.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o: ../src/http/HttpRequest.cc
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o: ../include/http/HttpResponse.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o: ../include/net/Buffer.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o: ../src/http/HttpResponse.cc
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/base/CurrentThread.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/base/Timestamp.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/base/noncopyable.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/http/HttpContext.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/http/HttpRequest.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/http/HttpResponse.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/http/HttpServer.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/logger/asLogger.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/logger/lockqueue.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/Acceptor.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/Buffer.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/Callbacks.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/Channel.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/EventLoop.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/InetAddress.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/Socket.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/TcpConnection.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/TcpServer.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/net/timer/TimerQueue.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../include/pool/ThreadPool/EventLoopThreadPool.h
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../src/http/HttpServer.cc
+
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o: ../include/base/Timestamp.h
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o: ../include/base/noncopyable.h
 CMakeFiles/TinyNetwork.dir/src/logger/asLogger.cc.o: ../include/logger/asLogger.h
@@ -89,44 +127,6 @@ CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/TcpServer.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/net/timer/TimerQueue.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../include/pool/ThreadPool/EventLoopThreadPool.h
 CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o: ../src/net/TcpServer.cc
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../include/base/Timestamp.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../include/base/noncopyable.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../include/net/Buffer.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../include/net/http/HttpContext.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../include/net/http/HttpRequest.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../src/net/http/HttpContext.cc
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o: ../include/base/Timestamp.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o: ../include/base/noncopyable.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o: ../include/net/http/HttpRequest.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o: ../src/net/http/HttpRequest.cc
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o: ../include/net/Buffer.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o: ../include/net/http/HttpResponse.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o: ../src/net/http/HttpResponse.cc
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/base/CurrentThread.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/base/Timestamp.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/base/noncopyable.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/logger/asLogger.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/logger/lockqueue.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/Acceptor.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/Buffer.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/Callbacks.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/Channel.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/EventLoop.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/InetAddress.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/Socket.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/TcpConnection.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/TcpServer.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/http/HttpContext.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/http/HttpRequest.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/http/HttpResponse.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/http/HttpServer.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/net/timer/TimerQueue.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../include/pool/ThreadPool/EventLoopThreadPool.h
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../src/net/http/HttpServer.cc
 
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o: ../include/base/Timestamp.h
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o: ../include/base/noncopyable.h

@@ -70,6 +70,14 @@ public:
         writerIndex_ = kCheapPrepend;
     }
 
+    // DEBUG使用，提取出string类型，但是不会置位
+    std::string GetBufferAllAsString()
+    {
+        size_t len = readableBytes();
+        std::string result(peek(), len);
+        return result;
+    }
+
     // 把 onMessage 函数上报的 Buffer 数据，转成 string 类型的数据返回
     std::string retrieveAllAsString()
     {

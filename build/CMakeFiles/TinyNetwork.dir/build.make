@@ -513,100 +513,100 @@ CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o.provides: CMakeFiles/Tiny
 CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o
 
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o: ../src/net/http/HttpContext.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpContext.cc
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o: ../src/http/HttpContext.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpContext.cc
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpContext.cc > CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.i
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpContext.cc > CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.i
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpContext.cc -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.s
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpContext.cc -o CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.s
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.requires:
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.requires:
 
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.requires
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.requires
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.requires
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.provides.build
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.provides
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.requires
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.provides.build
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.provides
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o
-
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o: ../src/net/http/HttpRequest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpRequest.cc
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpRequest.cc > CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.i
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpRequest.cc -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.s
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.requires:
-
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.requires
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.requires
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.provides.build
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.provides
-
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o
+CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o
 
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o: ../src/net/http/HttpResponse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpResponse.cc
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o: ../src/http/HttpRequest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpRequest.cc
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpResponse.cc > CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.i
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpRequest.cc > CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.i
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpResponse.cc -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.s
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpRequest.cc -o CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.s
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.requires:
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.requires:
 
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.requires
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.requires
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.requires
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.provides.build
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.provides
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.requires
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.provides.build
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.provides
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o
+CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o
 
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o: ../src/net/http/HttpServer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpServer.cc
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o: ../src/http/HttpResponse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpResponse.cc
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpServer.cc > CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.i
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpResponse.cc > CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.i
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpServer.cc -o CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.s
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpResponse.cc -o CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.s
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.requires:
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.requires:
 
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.requires
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.requires
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.requires
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.provides.build
-.PHONY : CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.provides
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.requires
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.provides.build
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.provides
 
-CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o
+CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o
+
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: CMakeFiles/TinyNetwork.dir/flags.make
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o: ../src/http/HttpServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o -c /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpServer.cc
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpServer.cc > CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.i
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpServer.cc -o CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.s
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.requires:
+
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.requires
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.provides: CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.requires
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.provides.build
+.PHONY : CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.provides
+
+CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.provides.build: CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o
 
 
 # Object files for target TinyNetwork
@@ -630,10 +630,10 @@ TinyNetwork_OBJECTS = \
 "CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o" \
 "CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o" \
 "CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o" \
-"CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o" \
-"CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o" \
-"CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o" \
-"CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o"
+"CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o" \
+"CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o" \
+"CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o" \
+"CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o"
 
 # External object files for target TinyNetwork
 TinyNetwork_EXTERNAL_OBJECTS =
@@ -657,10 +657,10 @@ TinyNetwork_EXTERNAL_OBJECTS =
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o
-../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o
-../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o
-../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o
-../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o
+../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o
+../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o
+../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o
+../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/build.make
 ../lib/libTinyNetwork.so: CMakeFiles/TinyNetwork.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX shared library ../lib/libTinyNetwork.so"
@@ -690,10 +690,10 @@ CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/logger/asLog
 CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o.requires
 CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o.requires
 CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o.requires
-CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o.requires
-CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o.requires
-CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o.requires
-CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o.requires
+CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o.requires
+CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o.requires
+CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o.requires
+CMakeFiles/TinyNetwork.dir/requires: CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o.requires
 
 .PHONY : CMakeFiles/TinyNetwork.dir/requires
 

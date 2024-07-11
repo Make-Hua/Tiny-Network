@@ -177,6 +177,114 @@ src/base/Timestamp.cc.s:
 	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/base/Timestamp.cc.s
 .PHONY : src/base/Timestamp.cc.s
 
+src/http/HttpContext.o: src/http/HttpContext.cc.o
+
+.PHONY : src/http/HttpContext.o
+
+# target to build an object file
+src/http/HttpContext.cc.o:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.o
+.PHONY : src/http/HttpContext.cc.o
+
+src/http/HttpContext.i: src/http/HttpContext.cc.i
+
+.PHONY : src/http/HttpContext.i
+
+# target to preprocess a source file
+src/http/HttpContext.cc.i:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.i
+.PHONY : src/http/HttpContext.cc.i
+
+src/http/HttpContext.s: src/http/HttpContext.cc.s
+
+.PHONY : src/http/HttpContext.s
+
+# target to generate assembly for a file
+src/http/HttpContext.cc.s:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpContext.cc.s
+.PHONY : src/http/HttpContext.cc.s
+
+src/http/HttpRequest.o: src/http/HttpRequest.cc.o
+
+.PHONY : src/http/HttpRequest.o
+
+# target to build an object file
+src/http/HttpRequest.cc.o:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.o
+.PHONY : src/http/HttpRequest.cc.o
+
+src/http/HttpRequest.i: src/http/HttpRequest.cc.i
+
+.PHONY : src/http/HttpRequest.i
+
+# target to preprocess a source file
+src/http/HttpRequest.cc.i:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.i
+.PHONY : src/http/HttpRequest.cc.i
+
+src/http/HttpRequest.s: src/http/HttpRequest.cc.s
+
+.PHONY : src/http/HttpRequest.s
+
+# target to generate assembly for a file
+src/http/HttpRequest.cc.s:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpRequest.cc.s
+.PHONY : src/http/HttpRequest.cc.s
+
+src/http/HttpResponse.o: src/http/HttpResponse.cc.o
+
+.PHONY : src/http/HttpResponse.o
+
+# target to build an object file
+src/http/HttpResponse.cc.o:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.o
+.PHONY : src/http/HttpResponse.cc.o
+
+src/http/HttpResponse.i: src/http/HttpResponse.cc.i
+
+.PHONY : src/http/HttpResponse.i
+
+# target to preprocess a source file
+src/http/HttpResponse.cc.i:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.i
+.PHONY : src/http/HttpResponse.cc.i
+
+src/http/HttpResponse.s: src/http/HttpResponse.cc.s
+
+.PHONY : src/http/HttpResponse.s
+
+# target to generate assembly for a file
+src/http/HttpResponse.cc.s:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpResponse.cc.s
+.PHONY : src/http/HttpResponse.cc.s
+
+src/http/HttpServer.o: src/http/HttpServer.cc.o
+
+.PHONY : src/http/HttpServer.o
+
+# target to build an object file
+src/http/HttpServer.cc.o:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.o
+.PHONY : src/http/HttpServer.cc.o
+
+src/http/HttpServer.i: src/http/HttpServer.cc.i
+
+.PHONY : src/http/HttpServer.i
+
+# target to preprocess a source file
+src/http/HttpServer.cc.i:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.i
+.PHONY : src/http/HttpServer.cc.i
+
+src/http/HttpServer.s: src/http/HttpServer.cc.s
+
+.PHONY : src/http/HttpServer.s
+
+# target to generate assembly for a file
+src/http/HttpServer.cc.s:
+	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/http/HttpServer.cc.s
+.PHONY : src/http/HttpServer.cc.s
+
 src/logger/asLogger.o: src/logger/asLogger.cc.o
 
 .PHONY : src/logger/asLogger.o
@@ -420,114 +528,6 @@ src/net/TcpServer.cc.s:
 	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.s
 .PHONY : src/net/TcpServer.cc.s
 
-src/net/http/HttpContext.o: src/net/http/HttpContext.cc.o
-
-.PHONY : src/net/http/HttpContext.o
-
-# target to build an object file
-src/net/http/HttpContext.cc.o:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o
-.PHONY : src/net/http/HttpContext.cc.o
-
-src/net/http/HttpContext.i: src/net/http/HttpContext.cc.i
-
-.PHONY : src/net/http/HttpContext.i
-
-# target to preprocess a source file
-src/net/http/HttpContext.cc.i:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.i
-.PHONY : src/net/http/HttpContext.cc.i
-
-src/net/http/HttpContext.s: src/net/http/HttpContext.cc.s
-
-.PHONY : src/net/http/HttpContext.s
-
-# target to generate assembly for a file
-src/net/http/HttpContext.cc.s:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.s
-.PHONY : src/net/http/HttpContext.cc.s
-
-src/net/http/HttpRequest.o: src/net/http/HttpRequest.cc.o
-
-.PHONY : src/net/http/HttpRequest.o
-
-# target to build an object file
-src/net/http/HttpRequest.cc.o:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o
-.PHONY : src/net/http/HttpRequest.cc.o
-
-src/net/http/HttpRequest.i: src/net/http/HttpRequest.cc.i
-
-.PHONY : src/net/http/HttpRequest.i
-
-# target to preprocess a source file
-src/net/http/HttpRequest.cc.i:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.i
-.PHONY : src/net/http/HttpRequest.cc.i
-
-src/net/http/HttpRequest.s: src/net/http/HttpRequest.cc.s
-
-.PHONY : src/net/http/HttpRequest.s
-
-# target to generate assembly for a file
-src/net/http/HttpRequest.cc.s:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.s
-.PHONY : src/net/http/HttpRequest.cc.s
-
-src/net/http/HttpResponse.o: src/net/http/HttpResponse.cc.o
-
-.PHONY : src/net/http/HttpResponse.o
-
-# target to build an object file
-src/net/http/HttpResponse.cc.o:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o
-.PHONY : src/net/http/HttpResponse.cc.o
-
-src/net/http/HttpResponse.i: src/net/http/HttpResponse.cc.i
-
-.PHONY : src/net/http/HttpResponse.i
-
-# target to preprocess a source file
-src/net/http/HttpResponse.cc.i:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.i
-.PHONY : src/net/http/HttpResponse.cc.i
-
-src/net/http/HttpResponse.s: src/net/http/HttpResponse.cc.s
-
-.PHONY : src/net/http/HttpResponse.s
-
-# target to generate assembly for a file
-src/net/http/HttpResponse.cc.s:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.s
-.PHONY : src/net/http/HttpResponse.cc.s
-
-src/net/http/HttpServer.o: src/net/http/HttpServer.cc.o
-
-.PHONY : src/net/http/HttpServer.o
-
-# target to build an object file
-src/net/http/HttpServer.cc.o:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o
-.PHONY : src/net/http/HttpServer.cc.o
-
-src/net/http/HttpServer.i: src/net/http/HttpServer.cc.i
-
-.PHONY : src/net/http/HttpServer.i
-
-# target to preprocess a source file
-src/net/http/HttpServer.cc.i:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.i
-.PHONY : src/net/http/HttpServer.cc.i
-
-src/net/http/HttpServer.s: src/net/http/HttpServer.cc.s
-
-.PHONY : src/net/http/HttpServer.s
-
-# target to generate assembly for a file
-src/net/http/HttpServer.cc.s:
-	$(MAKE) -f CMakeFiles/TinyNetwork.dir/build.make CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.s
-.PHONY : src/net/http/HttpServer.cc.s
-
 src/net/poller/DefaultPoller.o: src/net/poller/DefaultPoller.cc.o
 
 .PHONY : src/net/poller/DefaultPoller.o
@@ -759,6 +759,18 @@ help:
 	@echo "... src/base/Timestamp.o"
 	@echo "... src/base/Timestamp.i"
 	@echo "... src/base/Timestamp.s"
+	@echo "... src/http/HttpContext.o"
+	@echo "... src/http/HttpContext.i"
+	@echo "... src/http/HttpContext.s"
+	@echo "... src/http/HttpRequest.o"
+	@echo "... src/http/HttpRequest.i"
+	@echo "... src/http/HttpRequest.s"
+	@echo "... src/http/HttpResponse.o"
+	@echo "... src/http/HttpResponse.i"
+	@echo "... src/http/HttpResponse.s"
+	@echo "... src/http/HttpServer.o"
+	@echo "... src/http/HttpServer.i"
+	@echo "... src/http/HttpServer.s"
 	@echo "... src/logger/asLogger.o"
 	@echo "... src/logger/asLogger.i"
 	@echo "... src/logger/asLogger.s"
@@ -786,18 +798,6 @@ help:
 	@echo "... src/net/TcpServer.o"
 	@echo "... src/net/TcpServer.i"
 	@echo "... src/net/TcpServer.s"
-	@echo "... src/net/http/HttpContext.o"
-	@echo "... src/net/http/HttpContext.i"
-	@echo "... src/net/http/HttpContext.s"
-	@echo "... src/net/http/HttpRequest.o"
-	@echo "... src/net/http/HttpRequest.i"
-	@echo "... src/net/http/HttpRequest.s"
-	@echo "... src/net/http/HttpResponse.o"
-	@echo "... src/net/http/HttpResponse.i"
-	@echo "... src/net/http/HttpResponse.s"
-	@echo "... src/net/http/HttpServer.o"
-	@echo "... src/net/http/HttpServer.i"
-	@echo "... src/net/http/HttpServer.s"
 	@echo "... src/net/poller/DefaultPoller.o"
 	@echo "... src/net/poller/DefaultPoller.i"
 	@echo "... src/net/poller/DefaultPoller.s"

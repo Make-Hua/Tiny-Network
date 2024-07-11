@@ -17,6 +17,11 @@ do
     cp $header /usr/include/TinyNetwork
 done
 
+for header in `ls ./include/http/*.h`
+do
+    cp $header /usr/include/TinyNetwork
+done
+
 for header in `ls ./include/net/*.h`
 do
     cp $header /usr/include/TinyNetwork
