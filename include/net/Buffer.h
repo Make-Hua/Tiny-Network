@@ -124,6 +124,17 @@ public:
     // 通过 fd 发送数据
     ssize_t  writeFd(int fd, int* saveErrno);
 
+    // 在缓冲区中查找 CRLF (\r\n) 的位置
+    const char* findCRLF() const {
+        const char* crlf = std::search(peek(), beginWrite(), kCRLF, kCRLF + 2);
+        return crlf == beginWrite() ? nullptr : crlf;
+    }
+
+    // 从缓冲区中提取数据，直到指定的终止位置
+    void retrieveUntil(const char* end) {
+        retrieve(end - peek());
+    }
+
 private:
     char* begin()
     {
@@ -171,4 +182,10 @@ private:
     size_t readerIndex_;                    // 可读区域头下标
     size_t writerIndex_;                    // 可写区域头下标
 
+    static const char kCRLF[];
+
 };
+
+
+
+

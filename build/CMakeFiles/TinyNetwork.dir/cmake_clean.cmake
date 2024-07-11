@@ -18,6 +18,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThread.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/pool/thread/EventLoopThreadPool.cc.o"
   "CMakeFiles/TinyNetwork.dir/src/pool/thread/Thread.cc.o"
+  "CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o"
+  "CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o"
+  "CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o"
+  "CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o"
   "../lib/libTinyNetwork.pdb"
   "../lib/libTinyNetwork.so"
 )

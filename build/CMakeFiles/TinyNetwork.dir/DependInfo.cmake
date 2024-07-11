@@ -15,6 +15,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/Socket.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/Socket.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpConnection.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/TcpConnection.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpContext.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpRequest.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpResponse.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o"
+  "/home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpServer.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/DefaultPoller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/EPollPoller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/EPollPoller.cc.o"
   "/home/makehua/projects/network-muduo/Tiny-Network/src/net/poller/Poller.cc" "/home/makehua/projects/network-muduo/Tiny-Network/build/CMakeFiles/TinyNetwork.dir/src/net/poller/Poller.cc.o"
@@ -34,6 +38,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/net/poller"
   "../include/net/timer"
   "../include/pool/ThreadPool"
+  "../include/net/http"
   )
 
 # Targets to which this target links.

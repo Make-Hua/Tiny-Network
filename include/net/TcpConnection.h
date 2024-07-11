@@ -40,6 +40,8 @@ public:
     // 发送数据
     void send(const std::string &buf);
 
+    void send1(Buffer *buf);
+
     // 关闭连接
     void shutdown();
 
@@ -92,6 +94,7 @@ private:
     void handleError();
 
     void sendInLoop(const void* message, size_t len);
+    void sendInLoop1(const std::string& message);
     void shutdownInLoop();
 
     // 这里绝对不是 baseloop, 因为 TcpConnetion 都是在 subloop 里面管理的

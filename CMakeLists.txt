@@ -9,6 +9,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include/net)
 include_directories(${PROJECT_SOURCE_DIR}/include/net/poller)
 include_directories(${PROJECT_SOURCE_DIR}/include/net/timer)
 include_directories(${PROJECT_SOURCE_DIR}/include/pool/ThreadPool)
+include_directories(${PROJECT_SOURCE_DIR}/include/net/http)
 
 # include_directories(${PROJECT_SOURCE_DIR}/pool/MySqlPool)
 # include_directories(${PROJECT_SOURCE_DIR}/pool/MemoryPool)
@@ -19,6 +20,7 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src/base SRC_BASE)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/net SRC_NET)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/net/poller SRC_POLLER)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/net/timer SRC_TIMER)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/net/http SRC_HTTP)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/logger SRC_LOG)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/pool/thread SRC_THREAD)
 
@@ -41,4 +43,5 @@ add_library(TinyNetwork SHARED
             ${SRC_TIMER}
             ${SRC_LOG}
             ${SRC_THREAD}
+            ${SRC_HTTP}
         )

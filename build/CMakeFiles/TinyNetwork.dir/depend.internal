@@ -90,6 +90,44 @@ CMakeFiles/TinyNetwork.dir/src/net/TcpServer.cc.o
  ../include/net/timer/TimerQueue.h
  ../include/pool/ThreadPool/EventLoopThreadPool.h
  /home/makehua/projects/network-muduo/Tiny-Network/src/net/TcpServer.cc
+CMakeFiles/TinyNetwork.dir/src/net/http/HttpContext.cc.o
+ ../include/base/Timestamp.h
+ ../include/base/noncopyable.h
+ ../include/net/Buffer.h
+ ../include/net/http/HttpContext.h
+ ../include/net/http/HttpRequest.h
+ /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpContext.cc
+CMakeFiles/TinyNetwork.dir/src/net/http/HttpRequest.cc.o
+ ../include/base/Timestamp.h
+ ../include/base/noncopyable.h
+ ../include/net/http/HttpRequest.h
+ /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpRequest.cc
+CMakeFiles/TinyNetwork.dir/src/net/http/HttpResponse.cc.o
+ ../include/net/Buffer.h
+ ../include/net/http/HttpResponse.h
+ /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpResponse.cc
+CMakeFiles/TinyNetwork.dir/src/net/http/HttpServer.cc.o
+ ../include/base/CurrentThread.h
+ ../include/base/Timestamp.h
+ ../include/base/noncopyable.h
+ ../include/logger/asLogger.h
+ ../include/logger/lockqueue.h
+ ../include/net/Acceptor.h
+ ../include/net/Buffer.h
+ ../include/net/Callbacks.h
+ ../include/net/Channel.h
+ ../include/net/EventLoop.h
+ ../include/net/InetAddress.h
+ ../include/net/Socket.h
+ ../include/net/TcpConnection.h
+ ../include/net/TcpServer.h
+ ../include/net/http/HttpContext.h
+ ../include/net/http/HttpRequest.h
+ ../include/net/http/HttpResponse.h
+ ../include/net/http/HttpServer.h
+ ../include/net/timer/TimerQueue.h
+ ../include/pool/ThreadPool/EventLoopThreadPool.h
+ /home/makehua/projects/network-muduo/Tiny-Network/src/net/http/HttpServer.cc
 CMakeFiles/TinyNetwork.dir/src/net/poller/DefaultPoller.cc.o
  ../include/base/Timestamp.h
  ../include/base/noncopyable.h
