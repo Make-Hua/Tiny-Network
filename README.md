@@ -2,7 +2,7 @@
 
 ## 项目介绍
 
-本项目是参照muduo仿写的基于主从Reactor模型的多线程网络库。使用c++11的新特性编写，去除了muduo对boost的依赖。目前项目已经实现了Channel模块、Poller模块、EventLoop模块、TcpServer模块、Buffer模块、日志模块。
+本项目是参照muduo仿写的基于主从Reactor模型的多线程网络库。使用c++11的新特性编写，去除了muduo对boost的依赖。目前项目已经实现了Http 服务器模块、定时器模块、Channel模块、Poller模块、EventLoop模块、TcpServer模块、Buffer模块、日志模块。
 
 ## 项目结构
 
@@ -36,6 +36,7 @@ TinyNetwork/
 - 网络编程库底层采用 Epoll + LT 模式的 I/O 复用模型，并且结合非阻塞 I/O 实现从 Reactor 模型，实现了高并发和高吞吐量
 - 网络库采用了 one loop per therad 线程模型，并且向上封装线程池避免了线程的创建和销毁的性能开销，保证服务器的性能
 - 使用 C++11 的新特性编写，对比 muduo 网络库，该网络库去除了对于 Boost 库的依赖，实现了更加轻量化的设计
+- 网络库内部实现了一个小型的 HTTP 服务器，可支持 GET 请求和静态资源的访问，且附有异步日志监控服务端情况
 - 采用 eventfd 作为事件通知描述符，通过 wakeup 机制巧妙的高效派发事件到其他线程执行异步任务
 - 设计 Buffer 类，通过调用 readv API 减少系统调用次数，利用 buffer + extrabuf 设计提高访问速度，减少内存碎片
 - 基于红黑树实现定时器的管理结构，内部使用 Linux 的 timerfd 通知到期任务，从而进行高效管理定时任务
