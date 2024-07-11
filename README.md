@@ -92,7 +92,7 @@ nc 127.0.0.1 8080
 
 执行结果如下图：
 
-![Buffer]()
+![Tcp连接运行案例](https://github.com/Make-Hua/Tiny-Network/blob/master/image/Tcp%E6%89%A7%E8%A1%8C%E5%9B%BE.png)
 
 
 ## `Http` 服务器运行案例
@@ -112,7 +112,7 @@ make
 
 进入 `linux` 自带浏览器，输入对应 `127.0.0.1:9789` 执行结果如下图：
 
-![Buffer]()
+![Http服务器运行案例](https://github.com/Make-Hua/Tiny-Network/blob/master/image/http%E6%89%A7%E8%A1%8C%E5%9B%BE.png)
 
 
 
