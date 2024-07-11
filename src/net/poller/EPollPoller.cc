@@ -34,7 +34,7 @@ EPollPoller::~EPollPoller()
 }
 
 
-
+// 扩容操作
 Timestamp EPollPoller::poll(int timeoutMs, ChannelList *activeChannels)
 {
     // 应用 LOG_DEBUG 更合理

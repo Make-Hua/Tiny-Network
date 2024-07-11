@@ -80,7 +80,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
 
     // 通过 sockfd 获取对应主机的 ip 和 prot
     sockaddr_in local;
-    ::bzero(&local, sizeof local);
+    ::bzero(&local, sizeof local);      // memset
     socklen_t addrlen = sizeof local;
     if (::getsockname(sockfd, (sockaddr*)&local, &addrlen) < 0)
     {

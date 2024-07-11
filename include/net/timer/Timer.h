@@ -6,7 +6,7 @@
 #include "Timestamp.h"
 
 /**
- * Timer用于描述一个定时器
+ * Timer 用于描述一个定时器
  * 定时器回调函数，下一次超时时刻，重复定时器的时间间隔等
  */
 class Timer : noncopyable

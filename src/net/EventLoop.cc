@@ -79,7 +79,7 @@ void EventLoop::loop()
     while (!quit_) 
     {
         activeChannels_.clear();
-        // 监听两类 fd，一种是与客户端之间通信的 fd，另一种是 mainloop 和 subloop 之间通信的 fd
+        // 监听两类 fd，一种是与客户端之间通信的 fd，另一种是 mainloop 和 subloop 之间通信的 fd （epoll_wait）
         pollReturnTime_ = poller_->poll(kPollTimeMs, &activeChannels_);
         for (Channel *channel : activeChannels_)
         {
@@ -147,6 +147,8 @@ void EventLoop::queueInLoop(Functor cb)
         wakeup();
     }
 }
+
+/*         wakeup 的作用：①能够保证所有回调及时处理 -》比如因为锁的问题导致部分函数没执行  -》比如当事件不为当前 loop 则可以及时唤醒对应 loop 并执行                     */
 
 // 唤醒 loop 所在的线程的    向 wakeup fd 写一个数据
 // wakeupChannel 就发生读事件，当前 loop 线程就会被唤醒
