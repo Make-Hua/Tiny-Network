@@ -1,8 +1,4 @@
 #include <TinyNetwork/HttpServer.h>
-#include <TinyNetwork/HttpRequest.h>
-#include <TinyNetwork/HttpResponse.h>
-#include <TinyNetwork/HttpContext.h>
-#include <TinyNetwork/Timestamp.h>
 
 extern char favicon[555];
 bool benchmark = false;

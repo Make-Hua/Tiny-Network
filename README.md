@@ -71,7 +71,50 @@ sudo ./autobuild.sh
 sudo ./copy.sh
 ```
 
-## 运行案例
+## `Tcp` 连接运行案例
+
+依次执行以下指令：
+
+```bash
+# 进入目录
+cd /example/tcp/
+
+# 执行 makefile
+make
+
+# 运行 testserver
+./testserver
+
+
+# 新建终端进行连接 (默认 ip = 127.0.0.1   prot = 8080)
+nc 127.0.0.1 8080
+```
+
+执行结果如下图：
+
+![Buffer]()
+
+
+## `Http` 服务器运行案例
+
+依次执行以下指令：
+
+```bash
+# 进入目录
+cd /example/http/
+
+# 执行 makefile
+make
+
+# 运行 testserver
+./testhttpserver
+```
+
+进入 `linux` 自带浏览器，输入对应 `127.0.0.1:9789` 执行结果如下图：
+
+![Buffer]()
+
+
 
 
 

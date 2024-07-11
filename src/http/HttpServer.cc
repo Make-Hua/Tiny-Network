@@ -2,6 +2,7 @@
 #include "HttpRequest.h"
 #include "HttpResponse.h"
 #include "HttpContext.h"
+#include "Timestamp.h"
 #include "Buffer.h"
 
 #include <memory>

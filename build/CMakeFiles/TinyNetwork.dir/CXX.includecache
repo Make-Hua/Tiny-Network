@@ -305,6 +305,8 @@ HttpResponse.h
 /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpResponse.h
 HttpContext.h
 /home/makehua/projects/network-muduo/Tiny-Network/src/http/HttpContext.h
+Timestamp.h
+/home/makehua/projects/network-muduo/Tiny-Network/src/http/Timestamp.h
 Buffer.h
 /home/makehua/projects/network-muduo/Tiny-Network/src/http/Buffer.h
 memory
