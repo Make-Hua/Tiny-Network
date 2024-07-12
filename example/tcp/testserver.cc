@@ -1,6 +1,5 @@
 #include <TinyNetwork/TcpServer.h>
 #include <TinyNetwork/asLogger.h>
-#include <TinyNetwork/Timestamp.h>
 
 #include <string>
 #include <functional>

@@ -2,6 +2,10 @@
 
 #include "TcpServer.h"
 #include "noncopyable.h"
+#include "HttpRequest.h"
+#include "HttpResponse.h"
+#include "HttpContext.h"
+#include "Timestamp.h"
 #include "asLogger.h"
 #include <string>
 
